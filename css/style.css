@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-size: 1540px;
+}
+
+h2 {
+    font-family:'Trebuchet MS';
+    color: white;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 325px;
+    padding: 15px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 15px;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+}
+
+.buttons input {
+    position: static;
+    padding: 1mm 1ch;
+    color: #03e9f4;
+    font-size: 13px;
+    transition: .2s;
+    margin-top: 12px;
+    letter-spacing: 2px;
+    background: transparent;
+    border: none;
+}
+
+.buttons input:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4;
+    cursor: pointer;                
+}
+
+.mdp-oublié {
+    color: white;
+}
+
+dl {
+    color: white;
+}
